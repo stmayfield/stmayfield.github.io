@@ -26,7 +26,7 @@ a {
 }
 
 .container {
-    width: 1024px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -41,7 +41,7 @@ a {
 }
 
 #contact-info {
-    width: 30%;
+    width: 275px;
 }
 
 #bio-image {
@@ -50,3 +50,16 @@ a {
     height: 200px;
 }
 
+
+@media (max-width:600px){
+    #contact-info{
+      width:100%;
+      float: none;
+      
+    }
+    #main-bio{
+      width:100%;
+      float: none;
+    }
+
+}
