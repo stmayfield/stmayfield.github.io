@@ -1,65 +1,29 @@
 body {
-    background-color: #efeee7;
-    margin: 0px;
-    padding: 0px;
-    font-family: "Georgia", "Times New Roman", 'Times New Roman', Times, serif;
-    font-size: 18px;
-    line-height: 150%;
+    background: rgba(7, 87, 125, 0.1)
+}
+
+hr {
+    border: 1px solid #07577d;
 }
 
 h1 {
-    color: #efeee7;
-    background-color: #333333;
-    margin: 0px;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 28px;
-}
-
-h2 {
-    font-size: 24px;
+    color: #032840;
+    font-size: 4em;
 }
 
 a {
-    color:#d21034;
+    color: #167bab;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
+html,
+body {
+  height: 100%;
 }
 
-#bio-image, 
-#main-bio, 
-#contact-info {
-    float: left;
+#page-content {
+  flex: 1 0 auto;
 }
 
-#main-bio {
-    width: 70%;
-}
-
-#contact-info {
-    width: 275px;
-}
-
-#bio-image {
-    margin-right: 20px;
-    width: 200px;
-    height: 200px;
-}
-
-
-@media (max-width:600px){
-    #contact-info{
-      width:100%;
-      float: none;
-      
-    }
-    #main-bio{
-      width:100%;
-      float: none;
-    }
-
+#sticky-footer {
+  flex-shrink: none;
 }

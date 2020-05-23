@@ -1,47 +1,116 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
 <head>
     <meta charset="UTF-8">
-    <title>Stephen's Student Bio</title>
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+
+    <title>Stephen Mayfield - About</title>
+    <script src="https://kit.fontawesome.com/148b26ce6e.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <header>
-        <h1>Student Bio</h1>
-    </header>
+<body class="d-flex flex-column">
 
-    <div class="container">
-
-        <section id="main-bio">
-
-            <h2>Stephen Mayfield</h2>
-
-            <img src="assets/images/profile.png" alt="Profile image of Stephen" id="bio-image">
-
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel mattis neque. Donec facilisis vestibulum
-                velit,
-                ut vulputate ipsum blandit maximus. In porttitor tortor sit amet enim dignissim tincidunt. Nulla quis
-                auctor
-                sem. Sed ut odio a dolor porttitor fringilla. Morbi semper convallis vestibulum. Curabitur molestie
-                libero eros,
-                quis gravida risus mollis nec. Mauris luctus neque nisi, in aliquet lectus maximus molestie.
-            </p>
-
-        </section>
-
-        <section id="contact-info">
-            <h2>Contact Info</h2>
-            <ul>
-                <li><strong>Email: </strong><a href="mailto:stmayfield@live.com">stmayfield@live.com</a></li>
-                <li><strong>GitHub: </strong><a href="https://github.com/stmayfield" target="_blank">stmayfield</a></li>
-                <li><strong>Portfolio: </strong><a href="https://stmayfield.github.io/Bootstrap-Portfolio/">Bootstrap Portfolio</a></li>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #07577d; opacity: 90%;">
+        <a class="navbar-brand" href="index.html">Stephen Mayfield</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html" style="color: #b4e0f0;">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html" style="color: #f2faff;">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html" style="color: #f2faff;">Contact</a>
+                </li>
             </ul>
-        </section>
+        </div>
+    </nav>
+
+    <div id="page-content">
+        <div class="container">
+
+            <div class="row mt-4 mt-md-4">
+                <div class="col">
+                    <h1 class="text-center">About Me</h1>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-1">
+
+                </div>
+                <div class="col-lg-4 p-lg-2 p-4 text-center">
+                    <img src="assets/img/profile.png" class="img-fluid" alt="Portrait headshot of Stephen Mayfield.">
+                </div>
+                <div class="col-lg-6 mt-lg-0 mt-4">
+                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, similique in
+                        tempora
+                        officia ea rerum exercitationem libero dignissimos ex nesciunt quod cumque explicabo asperiores
+                        nulla!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, repudiandae.
+                        Pariatur illo dolore, dolorem recusandae dolores quo autem sapiente odio deleniti quasi debitis
+                        qui
+                        ullam, nostrum voluptatem ducimus dolorum earum. Lorem ipsum dolor sit amet consectetur
+                        adipisicing
+                        elit. Quidem, dignissimos ullam. Distinctio recusandae reiciendis ad itaque voluptates
+                        repellendus,
+                        illum saepe quas quasi nesciunt optio consectetur sequi laboriosam dignissimos voluptatum
+                        voluptate.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa tempore a nesciunt sunt
+                        accusantium
+                        eveniet voluptate at aperiam itaque molestias excepturi porro architecto modi ad, sit, in
+                        ratione
+                        repellendus natus.</p>
+
+                </div>
+                <div class="col-lg-1">
+
+                </div>
+            </div>
+
+            <hr>
+
+
+
+        </div>
+
     </div>
 
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            <span>Stephen Mayfield</span>
+            <a href="https://www.linkedin.com/in/stephen-mayfield-a50258b7" alt="Stephen Mayfield's LinkedIn Profile"
+                target="_blank"><i class="px-2 fab fa-linkedin fa-lg"></i></a>
+            <a href="https://github.com/stmayfield" alt="Stephen Mayfield's GitHub Page" target="_blank"><i
+                    class="px-2 fab fa-github-square fa-lg"></i></a>
+            <a href="mailto:code@stephenmayfield.com" alt="Stephen Mayfield's Portfolio Email Address"><i
+                    class="px-2 fab fas fa-envelope fa-lg"></i></a>
+
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
+
+
 
 </html>
