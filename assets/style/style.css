@@ -1,0 +1,30 @@
+body {
+    background: rgba(7, 87, 125, 0.1)
+}
+
+hr {
+    border: 1px solid #07577d;
+}
+
+h1 {
+    color: #032840;
+    font-size: 4em;
+}
+
+a {
+    color: #167bab;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
